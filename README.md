@@ -3,6 +3,13 @@
 Proyecto realizado por Gael López Bautista y Erick Iván Valeriano Santiago del grupo 602-A
 de la carrera Ingeniería en computación
 
+# Descripcion del proyecto
+Este proyecto es una aplicación web que funciona como un generador de exámenes interactivo. Su característica principal es la integración con la API de Google (Gemini) para generar y nutrir automáticamente un banco de preguntas y respuestas enfocado en el área de programación web. 
+
+El sistema está respaldado por una base de datos encargada de almacenar de forma persistente todo el contenido de las evaluaciones. Para gestionar estos datos de manera eficiente, el proyecto implementa una API REST que expone operaciones CRUD para las preguntas y respuestas, así como un sistema de CRUD paralelo para administrar a los usuarios y registrar sus puntajes. 
+
+A nivel de interfaz y seguridad, la aplicación requiere autenticación y cuenta con una página de login, lo que permite a cada usuario mantener un seguimiento personalizado de su desempeño y progreso en los exámenes.
+
 ## Rutas del Frontend
 
 Estas son las direcciones URL a las que los usuarios accederán a través de su navegador.
