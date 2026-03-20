@@ -16,37 +16,37 @@ Estas son las direcciones URL a las que los usuarios accederán a través de su 
 
 * **`/` (Inicio)**: Landing page del proyecto.
 
-![home](./propuesta/home.png)
+![home](home.png)
 
 Descripción: Pantalla de inicio que se verá al entrar a `localhost:3000`
 
 * **`/login`**: Página de autenticación para usuarios registrados.
 
-![login](./propuesta/login.png)
+![login](login.png)
 
 Descripción: Pantalla para iniciar sesión en tu cuenta
 
 * **`/registrarse`**: Formulario para la creación de cuentas de nuevos usuarios.
 
-![sing_up](./propuesta/vsing_up.png)
+![sing_up](sing_up.png)
 
 Descripción: Pantalla para crear una cuenta
 
 * **`/dashboard`**: Panel principal del usuario autenticado donde puede ver su información y puntaje acumulado.
 
-![Dashboard](./propuesta/Dashboard.png)
+![Dashboard](Dashboard.png)
 
 Descripción: Pantalla para ver el rendimiento personal del usuario y puntuaciones
 
 * **`/juego`**: Interfaz principal donde se muestran las preguntas generadas y el usuario interactúa para responderlas.
 
-![Interfaz_del_juego](./propuesta/interfaz_juego.png)
+![Interfaz_del_juego](interfaz_juego.png)
 
 Descripción: Pantalla principal donde se mostrarán las preguntas y opciones de respuesta
 
 * **`/admin`**: Panel de administración para gestionar la base de datos de preguntas de forma visual.
 
-![Dashboard_admin](./propuesta/Admin_Panel.png)
+![Dashboard_admin](Admin_Panel.png)
 
 Descripción: Pantalla para gestionar las preguntas que se van generando con la API de Google Gemini.
 
