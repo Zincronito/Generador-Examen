@@ -29,9 +29,9 @@ export default function RegisterPage() {
     <main className="flex-grow flex items-center justify-center p-4">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md border border-gray-200">
         <h1 className="text-2xl font-bold text-center mb-6 text-indigo-700">Crear Cuenta</h1>
-        
+
         <form onSubmit={handleSubmit} className="space-y-4">
-      
+
           <div>
             <label className="block text-sm font-medium text-gray-700">Ingresa tu nombre</label>
             <input
@@ -45,7 +45,7 @@ export default function RegisterPage() {
             />
           </div>
 
-     
+
           <div>
             <label className="block text-sm font-medium text-gray-700">Ingresa tu correo electrónico</label>
             <input
@@ -59,7 +59,7 @@ export default function RegisterPage() {
             />
           </div>
 
-        
+
           <div>
             <label className="block text-sm font-medium text-gray-700">Contraseña</label>
             <input
@@ -80,8 +80,9 @@ export default function RegisterPage() {
             Registrarse
           </button>
         </form>
-
-        
+        <p className="mt-4 text-center text-sm text-gray-600">
+          ¿Ya tienes cuenta? <a href="/login" className="text-blue-600 hover:underline">Inicia sesión</a>
+        </p>
       </div>
     </main>
   );
