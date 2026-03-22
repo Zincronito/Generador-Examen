@@ -87,7 +87,7 @@ export default function RegisterPage() {
               value={formData.email}
               onChange={handleChange}
               className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all text-black"
-              placeholder="usuario@correo.com"
+              placeholder="usuario@gmail.com"
               required
             />
           </div>
